@@ -11,6 +11,16 @@
 		BD582BF12A65F63000DE3740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD582BF02A65F63000DE3740 /* ContentView.swift */; };
 		BD582BF32A65F63100DE3740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD582BF22A65F63100DE3740 /* Assets.xcassets */; };
 		BD582BF62A65F63100DE3740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD582BF52A65F63100DE3740 /* Preview Assets.xcassets */; };
+		BD5B11532A69E12E00FEECE7 /* climatechange1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B11522A69E12E00FEECE7 /* climatechange1.swift */; };
+		BD5B11552A69E1BE00FEECE7 /* climatechange2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B11542A69E1BE00FEECE7 /* climatechange2.swift */; };
+		BD5B11592A69E1DB00FEECE7 /* climatechange3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B11582A69E1DB00FEECE7 /* climatechange3.swift */; };
+		BD5B54F62A66FEC400F518A6 /* Untitled design (1).png in Resources */ = {isa = PBXBuildFile; fileRef = BD5B54F52A66FEC400F518A6 /* Untitled design (1).png */; };
+		BD8733A42A69A28C00FB550B /* articleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8733A32A69A28C00FB550B /* articleView.swift */; };
+		BD8733A62A69A33200FB550B /* pollutionarticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8733A52A69A33200FB550B /* pollutionarticleView.swift */; };
+		BD8733A82A69A39500FB550B /* climatechangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8733A72A69A39500FB550B /* climatechangeView.swift */; };
+		BDC54D3C2A69AD6000ED95A4 /* feedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC54D3B2A69AD6000ED95A4 /* feedView.swift */; };
+		BDC54D3E2A69AE7100ED95A4 /* gameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC54D3D2A69AE7100ED95A4 /* gameView.swift */; };
+		BDD3DB092A68574E0059CB01 /* homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3DB082A68574E0059CB01 /* homepage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		BD582BF02A65F63000DE3740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD582BF22A65F63100DE3740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD582BF52A65F63100DE3740 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5B11522A69E12E00FEECE7 /* climatechange1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechange1.swift; sourceTree = "<group>"; };
+		BD5B11542A69E1BE00FEECE7 /* climatechange2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechange2.swift; sourceTree = "<group>"; };
+		BD5B11582A69E1DB00FEECE7 /* climatechange3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechange3.swift; sourceTree = "<group>"; };
+		BD5B54F52A66FEC400F518A6 /* Untitled design (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled design (1).png"; path = "../../../../Downloads/Untitled design (1).png"; sourceTree = "<group>"; };
+		BD8733A32A69A28C00FB550B /* articleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleView.swift; sourceTree = "<group>"; };
+		BD8733A52A69A33200FB550B /* pollutionarticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pollutionarticleView.swift; sourceTree = "<group>"; };
+		BD8733A72A69A39500FB550B /* climatechangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechangeView.swift; sourceTree = "<group>"; };
+		BDC54D3B2A69AD6000ED95A4 /* feedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedView.swift; sourceTree = "<group>"; };
+		BDC54D3D2A69AE7100ED95A4 /* gameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameView.swift; sourceTree = "<group>"; };
+		BDD3DB082A68574E0059CB01 /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,15 @@
 			children = (
 				BD582BEE2A65F63000DE3740 /* ecosaurApp.swift */,
 				BD582BF02A65F63000DE3740 /* ContentView.swift */,
+				BDC54D3B2A69AD6000ED95A4 /* feedView.swift */,
+				BDD3DB082A68574E0059CB01 /* homepage.swift */,
+				BDC54D3D2A69AE7100ED95A4 /* gameView.swift */,
+				BD8733A32A69A28C00FB550B /* articleView.swift */,
+				BD8733A52A69A33200FB550B /* pollutionarticleView.swift */,
+				BD8733A72A69A39500FB550B /* climatechangeView.swift */,
+				BD5B11522A69E12E00FEECE7 /* climatechange1.swift */,
+				BD5B11542A69E1BE00FEECE7 /* climatechange2.swift */,
+				BD5B11582A69E1DB00FEECE7 /* climatechange3.swift */,
 				BD582BF22A65F63100DE3740 /* Assets.xcassets */,
 				BD582BFC2A65F64B00DE3740 /* New Group */,
 				BD582BF42A65F63100DE3740 /* Preview Content */,
@@ -63,6 +92,7 @@
 		BD582BF42A65F63100DE3740 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BD5B54F52A66FEC400F518A6 /* Untitled design (1).png */,
 				BD582BF52A65F63100DE3740 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -133,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5B54F62A66FEC400F518A6 /* Untitled design (1).png in Resources */,
 				BD582BF62A65F63100DE3740 /* Preview Assets.xcassets in Resources */,
 				BD582BF32A65F63100DE3740 /* Assets.xcassets in Resources */,
 			);
@@ -145,8 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8733A82A69A39500FB550B /* climatechangeView.swift in Sources */,
+				BD5B11592A69E1DB00FEECE7 /* climatechange3.swift in Sources */,
+				BDC54D3C2A69AD6000ED95A4 /* feedView.swift in Sources */,
 				BD582BF12A65F63000DE3740 /* ContentView.swift in Sources */,
+				BD8733A62A69A33200FB550B /* pollutionarticleView.swift in Sources */,
 				BD582BEF2A65F63000DE3740 /* ecosaurApp.swift in Sources */,
+				BDD3DB092A68574E0059CB01 /* homepage.swift in Sources */,
+				BD5B11532A69E12E00FEECE7 /* climatechange1.swift in Sources */,
+				BDC54D3E2A69AE7100ED95A4 /* gameView.swift in Sources */,
+				BD5B11552A69E1BE00FEECE7 /* climatechange2.swift in Sources */,
+				BD8733A42A69A28C00FB550B /* articleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
