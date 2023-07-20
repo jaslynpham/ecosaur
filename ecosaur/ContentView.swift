@@ -24,6 +24,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var username = ""
+    @State private var email = ""
     @State private var password = ""
     @State private var isSignedIn = false //new state
     
@@ -80,7 +81,7 @@ struct ContentView: View {
                         .padding(.horizontal)
                         .autocapitalization(.none)
                     
-                    TextField("Email", text: $username)
+                    TextField("Email", text: $email)
                         .padding()
                         .background(Color.gray.opacity(0.2))
                         .cornerRadius(8)

@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct articleView: View {
-    @State private var streaks = 0
     
     var body: some View {
         NavigationView {
@@ -17,7 +16,7 @@ struct articleView: View {
                                 .font(.title)
                                 .fontWeight(.bold)
                             Spacer()
-                            Text("\(streaks): 🌎")
+                            Text("\(streaks) 🌎")
                                 .font(.title)
                                 .fontWeight(.bold)
                         }
