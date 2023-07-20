@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD582BEF2A65F63000DE3740 /* ecosaurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD582BEE2A65F63000DE3740 /* ecosaurApp.swift */; };
+		BD582BF12A65F63000DE3740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD582BF02A65F63000DE3740 /* ContentView.swift */; };
+		BD582BF32A65F63100DE3740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD582BF22A65F63100DE3740 /* Assets.xcassets */; };
+		BD582BF62A65F63100DE3740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD582BF52A65F63100DE3740 /* Preview Assets.xcassets */; };
+		BD5B11532A69E12E00FEECE7 /* climatechange1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B11522A69E12E00FEECE7 /* climatechange1.swift */; };
+		BD5B11552A69E1BE00FEECE7 /* climatechange2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B11542A69E1BE00FEECE7 /* climatechange2.swift */; };
+		BD5B11592A69E1DB00FEECE7 /* climatechange3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B11582A69E1DB00FEECE7 /* climatechange3.swift */; };
+		BD5B54F62A66FEC400F518A6 /* Untitled design (1).png in Resources */ = {isa = PBXBuildFile; fileRef = BD5B54F52A66FEC400F518A6 /* Untitled design (1).png */; };
+		BD8733A42A69A28C00FB550B /* articleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8733A32A69A28C00FB550B /* articleView.swift */; };
+		BD8733A62A69A33200FB550B /* pollutionarticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8733A52A69A33200FB550B /* pollutionarticleView.swift */; };
+		BD8733A82A69A39500FB550B /* climatechangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8733A72A69A39500FB550B /* climatechangeView.swift */; };
+		BDC54D3C2A69AD6000ED95A4 /* feedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC54D3B2A69AD6000ED95A4 /* feedView.swift */; };
+		BDC54D3E2A69AE7100ED95A4 /* gameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC54D3D2A69AE7100ED95A4 /* gameView.swift */; };
+		BDD3DB092A68574E0059CB01 /* homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3DB082A68574E0059CB01 /* homepage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD582BEB2A65F63000DE3740 /* ecosaur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecosaur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD582BEE2A65F63000DE3740 /* ecosaurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecosaurApp.swift; sourceTree = "<group>"; };
+		BD582BF02A65F63000DE3740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD582BF22A65F63100DE3740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD582BF52A65F63100DE3740 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5B11522A69E12E00FEECE7 /* climatechange1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechange1.swift; sourceTree = "<group>"; };
+		BD5B11542A69E1BE00FEECE7 /* climatechange2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechange2.swift; sourceTree = "<group>"; };
+		BD5B11582A69E1DB00FEECE7 /* climatechange3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechange3.swift; sourceTree = "<group>"; };
+		BD5B54F52A66FEC400F518A6 /* Untitled design (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled design (1).png"; path = "../../../../Downloads/Untitled design (1).png"; sourceTree = "<group>"; };
+		BD8733A32A69A28C00FB550B /* articleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articleView.swift; sourceTree = "<group>"; };
+		BD8733A52A69A33200FB550B /* pollutionarticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pollutionarticleView.swift; sourceTree = "<group>"; };
+		BD8733A72A69A39500FB550B /* climatechangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climatechangeView.swift; sourceTree = "<group>"; };
+		BDC54D3B2A69AD6000ED95A4 /* feedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedView.swift; sourceTree = "<group>"; };
+		BDC54D3D2A69AE7100ED95A4 /* gameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameView.swift; sourceTree = "<group>"; };
+		BDD3DB082A68574E0059CB01 /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD582BE82A65F63000DE3740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD582BE22A65F63000DE3740 = {
+			isa = PBXGroup;
+			children = (
+				BD582BED2A65F63000DE3740 /* ecosaur */,
+				BD582BEC2A65F63000DE3740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD582BEC2A65F63000DE3740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD582BEB2A65F63000DE3740 /* ecosaur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD582BED2A65F63000DE3740 /* ecosaur */ = {
+			isa = PBXGroup;
+			children = (
+				BD582BEE2A65F63000DE3740 /* ecosaurApp.swift */,
+				BD582BF02A65F63000DE3740 /* ContentView.swift */,
+				BDC54D3B2A69AD6000ED95A4 /* feedView.swift */,
+				BDD3DB082A68574E0059CB01 /* homepage.swift */,
+				BDC54D3D2A69AE7100ED95A4 /* gameView.swift */,
+				BD8733A32A69A28C00FB550B /* articleView.swift */,
+				BD8733A52A69A33200FB550B /* pollutionarticleView.swift */,
+				BD8733A72A69A39500FB550B /* climatechangeView.swift */,
+				BD5B11522A69E12E00FEECE7 /* climatechange1.swift */,
+				BD5B11542A69E1BE00FEECE7 /* climatechange2.swift */,
+				BD5B11582A69E1DB00FEECE7 /* climatechange3.swift */,
+				BD582BF22A65F63100DE3740 /* Assets.xcassets */,
+				BD582BFC2A65F64B00DE3740 /* New Group */,
+				BD582BF42A65F63100DE3740 /* Preview Content */,
+			);
+			path = ecosaur;
+			sourceTree = "<group>";
+		};
+		BD582BF42A65F63100DE3740 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD5B54F52A66FEC400F518A6 /* Untitled design (1).png */,
+				BD582BF52A65F63100DE3740 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD582BFC2A65F64B00DE3740 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD582BEA2A65F63000DE3740 /* ecosaur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD582BF92A65F63100DE3740 /* Build configuration list for PBXNativeTarget "ecosaur" */;
+			buildPhases = (
+				BD582BE72A65F63000DE3740 /* Sources */,
+				BD582BE82A65F63000DE3740 /* Frameworks */,
+				BD582BE92A65F63000DE3740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ecosaur;
+			productName = ecosaur;
+			productReference = BD582BEB2A65F63000DE3740 /* ecosaur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD582BE32A65F63000DE3740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BD582BEA2A65F63000DE3740 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BD582BE62A65F63000DE3740 /* Build configuration list for PBXProject "ecosaur" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD582BE22A65F63000DE3740;
+			productRefGroup = BD582BEC2A65F63000DE3740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD582BEA2A65F63000DE3740 /* ecosaur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD582BE92A65F63000DE3740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5B54F62A66FEC400F518A6 /* Untitled design (1).png in Resources */,
+				BD582BF62A65F63100DE3740 /* Preview Assets.xcassets in Resources */,
+				BD582BF32A65F63100DE3740 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD582BE72A65F63000DE3740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8733A82A69A39500FB550B /* climatechangeView.swift in Sources */,
+				BD5B11592A69E1DB00FEECE7 /* climatechange3.swift in Sources */,
+				BDC54D3C2A69AD6000ED95A4 /* feedView.swift in Sources */,
+				BD582BF12A65F63000DE3740 /* ContentView.swift in Sources */,
+				BD8733A62A69A33200FB550B /* pollutionarticleView.swift in Sources */,
+				BD582BEF2A65F63000DE3740 /* ecosaurApp.swift in Sources */,
+				BDD3DB092A68574E0059CB01 /* homepage.swift in Sources */,
+				BD5B11532A69E12E00FEECE7 /* climatechange1.swift in Sources */,
+				BDC54D3E2A69AE7100ED95A4 /* gameView.swift in Sources */,
+				BD5B11552A69E1BE00FEECE7 /* climatechange2.swift in Sources */,
+				BD8733A42A69A28C00FB550B /* articleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD582BF72A65F63100DE3740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD582BF82A65F63100DE3740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD582BFA2A65F63100DE3740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ecosaur/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ecosaur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD582BFB2A65F63100DE3740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ecosaur/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ecosaur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD582BE62A65F63000DE3740 /* Build configuration list for PBXProject "ecosaur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD582BF72A65F63100DE3740 /* Debug */,
+				BD582BF82A65F63100DE3740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD582BF92A65F63100DE3740 /* Build configuration list for PBXNativeTarget "ecosaur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD582BFA2A65F63100DE3740 /* Debug */,
+				BD582BFB2A65F63100DE3740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD582BE32A65F63000DE3740 /* Project object */;
+}
